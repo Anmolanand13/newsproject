@@ -1,0 +1,1338 @@
+/* Global Settings */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Titillium Web', sans-serif;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Helper Classes */
+.row {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-start {
+    align-items: flex-start;
+}
+.align-items-center {
+    align-items: center;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* Common Settings */
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* Topbar */
+.topbar {
+   font-size: 14px;
+   padding-top: 50px;
+}
+#header {
+
+}
+
+#main-nav {
+
+}
+
+
+#banner {
+
+}
+
+#main {
+
+}
+
+#sidebar {
+
+}
+
+#footer {
+
+}
+.numbers
+{
+    width: 30%;
+
+}
+.numbers ul li a
+{
+    color:black;
+}
+.social-medias
+{
+    width: 10%;
+}
+.social-medias ul li a
+{
+    color: #fff;
+}
+.numbers ul li i
+{
+    color: rgb(239,74,43);
+}
+.background-1
+{
+    background-image: url("http://kodeforest.net/html/democracy/extra-images/banner-01.jpg");
+    background-size: cover;
+    box-shadow: 5px 10px;
+
+}
+.container-2
+{
+    width: 1150px;
+    margin: 0 auto;
+}
+.header
+{
+    margin-top: 30px;
+    /* height: 30px; */
+}
+.header .logo
+{
+    width: 40%;
+    background-color: #ef4a2b;
+    padding-left: 30px;
+    padding-top: 30px;
+    /* margin-right: 20px; */
+
+
+}
+.header .logo img
+{
+    align-items: center;
+}
+.header .user-action
+{
+    width: 60%;
+    padding-top: 20px;
+    background-color:#fff;
+
+}
+.header .user-action button
+{
+    font-size: 18px;
+}
+.header .user-action ul li a{
+    color: black;
+    font-size: 13px;
+}
+.header .user-action ul{
+    padding-right: 30px;
+}
+.container-3
+{
+    width: 1240px;
+    margin: 0 auto;
+}
+.user-action ul li a:hover
+{
+    color: #ef4a2b;
+}
+.user-action .event
+{
+    position: relative;
+}
+.user-action .dropdown1
+{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    width: 200px;
+    display: none;
+    background-color: #fff;
+}
+.user-action .event:hover .dropdown1
+{
+    display: block;
+}
+.user-action .news
+{
+    position: relative;
+}
+.user-action .dropdown2
+{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    width: 200px;
+    background-color: #fff;
+    display: none;
+}
+.user-action .news:hover .dropdown2
+{
+    display: block;
+}
+.user-action .pages
+{
+    position: relative;
+}
+.user-action .dropdown3
+{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    background-color: #fff;
+    width: 200px;
+    display: none;
+}
+.user-action .pages:hover .dropdown3
+{
+    display: block;
+}
+.politics
+{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-left: 4px solid;
+    margin: 0px 0px 16px;
+    line-height: 15px;
+    padding-left: 6%;
+    padding-top: 5%;
+    margin-top: 20px;
+}
+.power
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    margin: 0px 0px 8px;
+    line-height: normal;
+    font-size: 40px;
+font-family: 'Sintony', sans-serif;
+
+}
+.sed
+{
+    line-height: 30px;
+    color: #fff;
+    word-break: break-all;
+    margin: 0px 0px 32px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+ .seemore
+{
+    padding-left: 5%;
+
+
+}
+.seemore button
+{
+    font-size: 20px;
+    margin: 10px;
+    ;height: 40px;
+}
+.see{
+    background-color: #fff;
+
+
+}
+.sign
+{
+    background-color: #1c1d22;
+    color: white;
+
+
+}
+.seemore:hover .see{
+    background-color: #ef4a2b;
+}
+.seemore:hover .sign{
+    background-color: #fff;
+    color: black;
+}
+.breakingnews
+{
+    color: #fff;
+    margin-top: 40px;
+   padding-bottom: 40px;
+}
+.breaking
+{
+    background-color: #ef4a2b;
+    width: 40%;
+    margin-left: 60px;
+}
+.breaking h3
+{
+    padding: 15px;
+}
+.latestnews
+{
+    width: 60%;
+    margin-right: 30px;
+    background-color: #fff;
+    color: #c4c4c4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding-top: 20px;
+
+}
+.row-1
+{
+    display: grid  ;
+    grid-template-columns: repeat(3,30%);
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+    position: relative;
+
+}
+.row-1 .col
+{
+
+    background-color: black;
+    color: #fff;
+
+}
+.row-1 .col img
+{
+    width: 100%;
+}
+.row-1 h3
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 19px;
+    line-height: 20px;
+    position: absolute;
+    top: 5px;
+     font-family: 'Open Sans', sans-serif;
+     font-size: larger;
+}
+.row-1 h4
+{
+    position: absolute;
+    top: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+.list
+{
+    margin-top: 40px;
+}
+.list ul li a
+{
+    padding-left: 20px;
+    color: #999999;
+    font-weight: bolder;
+    font-size: large;
+}
+.list ul li a:hover
+{
+    color: #ef4a2b;
+}
+.incontent{
+    font-size: 10px;
+}
+.col
+{
+    font-weight:900;
+}
+.list .about a
+{
+    color: #ef4a2b;
+
+}
+.democracy
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.manimg
+{
+    width: 40%;
+    margin-left: 30px;
+}
+.aboutparty
+{
+    width: 50%;
+    margin-right: 30px;
+}
+.party
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 16px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
+.rule
+{
+    line-height: 29px;
+    word-break: break-all;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+}
+.welcome
+{
+    font-size: 30px;
+    color: #333333;
+    font-family: 'Sintony', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 1.6;
+    margin: 0px 0px 0px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 18px;
+    margin-bottom: 20px;
+    position: relative;
+    line-height: 24px;
+}
+.conference
+{
+    margin-top: 40px;
+}
+.conference .media
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 1px;
+    letter-spacing: 2.4px;
+    text-align: center;
+}
+.conference .news
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 6px;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+}
+.row-2
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    margin-bottom: 40px;
+}
+.row-2 .col
+{
+    border-bottom: 1px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;
+}
+.row-2 .col:hover
+{
+    border-bottom: 5px solid #ef4a2b;
+}
+.datelist
+{
+    width: 50%;
+    font-size: 12px;
+    font-weight: 400;
+}
+.datelist ul li:hover
+{
+    color: #ef4a2b;
+}
+.sedut
+{
+    font-size: 16px;
+    color: #999999;
+    font-weight: 400;
+    width: 100%;
+}
+.trustsafety
+{
+    color: #474747;
+}
+.trustsafety:hover
+{
+    color: #ef4a2b;
+}
+.seemore2
+{
+    padding-left: 5%;
+    margin-left: 37%;
+    margin-bottom: 40px;
+
+}
+.seemore2 button
+{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.see{
+    background-color: #fff;
+}
+.sign
+{
+    background-color: #1c1d22;
+    color: white;
+
+
+}
+.seemore2:hover .see{
+    background-color: #ef4a2b;
+}
+.seemore2:hover .sign{
+    background-color: #fff;
+    color: black;
+}
+.major
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 1px;
+    letter-spacing: 2.4px;
+    font-weight: 700;
+    text-align: center;
+}
+.latestwork
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 6px;
+    position: relative;
+    color: #333333;
+    font-family: 'Sintony', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 1.6;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.latest{
+    margin-top: 50px;
+}
+.list2
+{
+    margin-top: 60px;
+}
+.list2 ul li a
+{
+    padding-left: 20px;
+    color: #999999;
+    font-weight: bolder;
+    font-size: medium;
+}
+.list2 ul li a:hover
+{
+    color: #ef4a2b;
+}
+.list2 .all a
+{
+    color: #ef4a2b;
+}
+.gridd
+{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(4,22%);
+    justify-content: center;
+    gap: 20px;
+}
+.awesome
+{
+    margin-top: 100px;
+    border: 2px solid red;
+    margin-bottom: 50px;
+}
+.awesome .feature
+{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 0px 0px 21px;
+    line-height: 18px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+}
+.purchase
+{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+.awesome button
+{
+    margin-left: 42%;
+    font-size: medium;
+    padding: 10px;
+    color:black;
+    background-color: #fff;
+}
+.awesome
+{
+    position: relative;
+    background-image: url(http://kodeforest.net/html/democracy/images/purchase-now-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.whatgoingon .what
+{
+text-align: center;
+font-weight: 400;
+}
+.Campaign
+{
+    text-align: center;
+    font-size: 40px;
+    color: #333333;
+}
+.nov10
+{
+    text-align: center;
+}
+.nov28
+{
+    text-align: center;
+    margin-top: ;
+}
+.nov24
+{
+    text-align: center;
+}
+.nov
+{
+    border: 20px solid  #757575;
+    width: 7%;
+    margin-top:50px;
+margin-left: 48%;
+border-radius: 50%;
+border-style: double;
+color:#757575;
+font-size: 18px;
+}
+.nov:hover
+{
+    border: 20px double #ef4a2b;
+    background-color: #ef4a2b;
+    color: #fff;
+
+}
+.guest
+{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.guest ul li
+{
+    font-size: 14px;
+    color: #333333;
+}
+.guest h3
+{
+    font-weight: 300;
+
+}
+.guest h4
+{
+    color:
+    #838383
+    ;
+    font-weight: 300;
+}
+.guest:hover
+{
+    color: #ef4a2b;
+}
+.guest1
+{
+    width: 45%;
+    margin-left: 20px;
+   text-align: justify;
+}
+.people
+{
+    margin-top: 200px;
+}
+.people h3
+{
+    text-align: center;
+    font-weight: 400;
+}
+.people h2
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: 400;
+}
+.row-3
+{
+    grid-template-columns: repeat(3,30%);
+    margin-top: 30px;
+    justify-content: center;
+    gap: 20px;
+}
+.row-3 h3,
+h4
+{
+    text-align: center;
+}
+.row-3 ul
+{
+    text-align:center;
+    justify-content: center;
+}
+.row-3 ul li
+{
+    padding-left: 10px;
+
+}
+.row-3 ul li a
+{
+   color: #777777;
+}
+.row-3 h4
+{
+    color: #777777;
+}
+.row-3 h3
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+.row-3 .col
+{
+    border-bottom: 1px solid #666;
+    border-right: 1px solid #666;
+}
+.row-3 h3:hover
+{
+    color: #ef4a2b;
+}
+.row-3 ul li a:hover
+{
+    color: #ef4a2b;
+}
+.bargraph
+{
+ margin-top: 200px;
+}
+.common
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    color: #ef4a2b;
+    font-weight: bolder;
+    margin-top: -50px;
+}
+.bar
+{
+
+
+    background-color: #dcdee1;
+    width: 400px;
+    border: 2px solid;
+    margin-top: -0px;
+}
+.bar .bar-1
+{
+    width: 200px;
+    border: 2px solid ;
+    background-color: #ef4a2b;
+}
+.bar .bar-2
+{
+    width: 380px;
+    border: 2px solid ;
+    background-color: #ef4a2b;
+}
+.bar .bar-3
+{
+    width: 100px;
+    border: 2px solid ;
+    background-color: #ef4a2b;
+}
+.bar .bar-4
+{
+    width: 300px;
+    border: 2px solid ;
+    background-color: #ef4a2b;
+}
+.work .row
+{
+    padding-left: 150px;
+    font-size: 60px;
+    padding-right: 90px;
+}
+.work
+{
+    background-image: url("http://kodeforest.net/html/democracy/images/count-up-bg.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    margin-bottom:150px ;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: sepia(10%);
+}
+.work .num
+{
+    display: flex;
+    justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 40px;
+    font-size: 60px;
+}
+.work .sup
+{
+    display: flex;
+    justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 60px;
+
+}
+.feature h3,
+h2
+{
+    text-align: center;
+}
+.feature .fea
+{
+    font-weight: 400;
+}
+.feature h2
+{
+    font-size: 35px;
+}
+.culturegrid
+{
+    display: grid;
+    grid-template-columns: repeat(2,45%);
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+    position: relative;
+}
+.culturegrid .col_3
+{
+grid-column: 2/3;
+grid-row: 2/3;
+position: relative;
+}
+.culturegrid .col_1
+{
+    grid-column: 1/2;
+    grid-row:1/3;
+    position: relative;
+}
+.col_2
+{
+    position: relative;
+}
+.culturegrid  img
+{
+   filter: grayscale(70%);
+
+}
+.culturegrid h3
+{
+    position: absolute;
+    top: 470px;
+    color: #fff;
+}
+.culturegrid ul
+{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+top: 500px;
+padding-left: 10px;
+}
+.culturegrid ul li
+{
+
+   color: #fff;
+   font-weight: 300;
+}
+.culturegrid .second
+{
+    position: absolute;
+    top: 200px;
+    color: #fff;
+}
+.culturegrid .sec
+{
+    top: 230px;
+}
+.col_1 button
+{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 20px;
+    background-color: #ef4a2b;
+    color: #fff;
+}
+.col_2 button
+{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 20px;
+    background-color: #ef4a2b;
+    color: #fff;
+}
+.col_3 button
+{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 20px;
+    background-color: #ef4a2b;
+    color: #fff;
+}
+ .slider{
+    width: 300%;
+    animation: slider  10s infinite ;
+    margin-top: 100px;
+    border: 70px solid #262927;
+
+}
+.slide img{
+    width: 100%;
+}
+.slide
+{
+    width:10% ;
+    display: inline-block;
+}
+@keyframes slider{
+    0%
+    {
+        transform: translateX(0%);
+    }
+    20%
+    {
+        transform: translateX(-5%);
+    }
+    40%
+    {
+        transform: translateX(-10%);
+    }
+    60%
+    {
+        transform: translateX(-15%);
+    }
+    80%
+    {
+        transform: translateX(-20%);
+    }
+    100%
+    {
+        transform: translateX(-25%);
+    }
+
+}
+.like
+{
+    margin-top: 50px;
+    background-color: #ef4a2b;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.like h3
+{
+margin-left: 50px;
+font-size: 30px;
+color: white;
+}
+.like button
+{
+    color: #fff;
+    background-color: #ef4a2b;
+    font-size: 20px;
+}
+.like button:hover
+{
+    color: black;
+    background-color: #fff;
+}
+.elections h3,
+h2
+{
+    text-align: center;
+}
+.elections h3
+{
+    font-size: 30px;
+    font-weight: 400;
+}
+.elections h2
+{
+    font-size: 50px;
+}
+.elections
+{
+    margin-top: 50px;
+}
+@media(max-width:1200px)
+{
+    .topbar .container-2
+    {
+        justify-content: center;
+    }
+    .header .container-3
+    {
+        justify-content: flex-start;
+    }
+   .header .logo
+    {
+        width: 20%;
+    }
+    .header .logo img
+{
+    width: 100%;
+}
+.background-1
+{
+    width: 100%;
+}
+    .header .user-action
+    {
+        width: 70%;
+    }
+    .breakingnews .container-2
+    {
+        justify-content: flex-start;
+    }
+    .breaking
+    {
+        width: 30%;
+    }
+    .latestnews
+    {
+        width: 45%;
+    }
+    .row-1
+    {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,34%);
+    justify-content: flex-start;
+    gap: 40px;
+    margin-left: 30px;
+    }
+    .row-1 .col
+    {
+        width: 100%;
+    }
+    .row-1 .donation h3
+
+    {
+    top: 300px;
+    }
+    .row-1 .donation h4
+    {
+        top: 330px;
+    }
+    .list .row
+    {
+        margin-right: 200px;
+    }
+    .democracy
+    {
+        justify-content: flex-start;
+    }
+    .democracy .aboutparty
+    {
+        width: 40%;
+        margin-left: 40px;
+    }
+    .democracy .manimg
+    {
+        width: 30%;
+    }
+    .conference
+    {
+        margin-right: 10%;
+    }
+    .row-2
+    {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2,34%);
+        justify-content: flex-start;
+        gap: 40px;
+        margin-left: 30px;
+    }
+    .row-2 img
+    {
+        width: 100%;
+    }
+    .gridd
+    {
+        grid-template-columns: repeat(3,20%);
+    }
+    .whatgoingon .nov
+    {
+        border: 20px solid  #757575;
+        width: 13%;
+        margin-top:50px;
+    margin-left: 48%;
+    border-radius: 60%;
+    border-style: double;
+    color:#757575;
+    font-size: 14px;
+    }
+    .row-3
+    {
+
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2,40%);
+        justify-content: flex-start;
+        gap: 40px;
+        margin-left: 30px;
+    }
+    .flex-1
+    {
+
+        display: block;
+    }
+    .common
+    {
+
+width: 100%;
+    }
+    .col4
+    {
+        position: absolute;
+        top: 300px;
+    }
+    .bargraph
+    {
+        position: relative;
+        margin-bottom: 30px;
+        margin-right: 30px;
+    }
+    .work ul li
+    {
+        font-size: 27px;
+    }
+    .culturegrid h3,
+  ul{
+    display: none;
+  }
+}
+
+@media(max-width:768px)
+{
+    .topbar .container-2
+    {
+        justify-content: flex-start;
+    }
+    .header .container-3
+    {
+        justify-content: flex-start;
+    }
+   .header .logo
+    {
+        width: 14%;
+
+    }
+    .header .logo img
+{
+    width: 100%;
+}
+.background-1
+{
+    width: 61%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    .header .user-action
+    {
+        width: 47%;
+    }
+    .breakingnews .container-2
+    {
+        justify-content: flex-start;
+    }
+    .breaking
+    {
+        width: 10%;
+    }
+    .latestnews
+    {
+        width: 25%;
+    }
+    .row-1
+    {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1,50%);
+    justify-content: flex-start;
+    gap: 40px;
+    margin-left: 30px;
+    }
+    .row-1 .col
+    {
+        width: 100%;
+    }
+    .row-1 .donation h3
+
+    {
+    top: 800px;
+    }
+    .row-1 .donation h4
+    {
+        top:830px;
+    }
+    .row-1 .election h3
+
+    {
+    top: 400px;
+    }
+    .row-1 .election h4
+    {
+        top: 430px;
+    }
+    .list .row
+    {
+        margin-right: 500px;
+    }
+    .democracy
+    {
+        justify-content: flex-start;
+    }
+    .democracy .aboutparty
+    {
+        width: 32%;
+        margin-left: 40px;
+    }
+    .democracy .manimg
+    {
+        width: 20%;
+    }
+    .conference
+    {
+        margin-right: 30%;
+    }
+    .row-2
+    {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1,50%);
+        justify-content: flex-start;
+        gap: 40px;
+        margin-left: 30px;
+    }
+    .row-2 img
+    {
+        width: 100%;
+    }
+    .seemore
+    {}
+    .gridd
+    {
+        grid-template-columns: repeat(1,60%);
+    }
+    .whatgoingon .nov
+    {
+        border: 20px solid  #757575;
+        width: 50%;
+        margin-top:50px;
+    margin-left: 48%;
+    border-radius: 70%;
+    border-style: double;
+    color:#757575;
+    font-size: 24px;
+    }
+    .row-3
+    {
+
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1,90%);
+        justify-content: flex-start;
+        gap: 40px;
+        margin-left: 30px;
+    }
+    .flex-1
+    {
+
+        display: block;
+    }
+    .common
+    {
+
+width: 100%;
+    }
+    .col4
+    {
+        position: absolute;
+        top: 300px;
+    }
+    .bargraph
+    {
+        position: relative;
+        margin-bottom: 30px;
+        margin-right: 30px;
+    }
+    .work ul li
+    {
+        font-size: 13px;
+    }
+    .work .row{
+        /* justify-content: flex-start; */
+    }
+  .culturegrid .col h3,
+  ul{
+    display: none;
+  }
+.col-4
+{
+    /* display: none; */
+}
+}
