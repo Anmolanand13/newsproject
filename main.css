@@ -1338,6 +1338,10 @@ width: 100%;
 }
 @media(max-width:575.98px)
 {
+      *
+    {
+        overflow-x: hidden;
+    }
     .topbar .container-2
     {
         justify-content: flex-start;
