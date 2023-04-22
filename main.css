@@ -1338,13 +1338,17 @@ width: 100%;
 }
 @media(max-width:575.98px)
 {
-      *
+    *
     {
         overflow-x: hidden;
     }
     .topbar .container-2
     {
         justify-content: flex-start;
+    }
+    .numbers
+    {
+        display: none;
     }
     .topbar ul li
     {
@@ -1377,10 +1381,10 @@ width: 100%;
 .header .user-action .show
 {
     display: block;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 .sed{
-    font-size: 9px;
+    font-size: 7px;
     text-align: left;
 }
 .background-1
@@ -1403,16 +1407,17 @@ width: 100%;
     }
     .latestnews
     {
-        width: 20%;
+        width: 15%;
     }
     .row-1
     {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: repeat(1,30%);
+    grid-template-columns: repeat(1,23%);
     justify-content: flex-start;
     gap: 40px;
     margin-left: 30px;
+    overflow-y: hidden;
     }
     .row-1 .col
     {
@@ -1438,7 +1443,7 @@ width: 100%;
     }
     .list .row
     {
-        margin-right: 800px;
+        margin-right: 855px;
     }
     .democracy
     {
@@ -1446,8 +1451,15 @@ width: 100%;
     }
     .democracy .aboutparty
     {
-        width: 20%;
+        width: 12%;
         margin-left: 40px;
+    }
+    .aboutparty .welcome
+    {
+        font-size: 20px;
+    }
+    .aboutparty .rule{
+        font-size: 8px;
     }
     .democracy .manimg
     {
@@ -1455,17 +1467,22 @@ width: 100%;
     }
     .conference
     {
-        margin-right: 60%;
+        margin-right: 70%;
     }
     .row-2
     {
         margin-top: 30px;
         display: grid;
-        grid-template-columns: repeat(1,30%);
+        grid-template-columns: repeat(1,23%);
         justify-content: flex-start;
         gap: 40px;
         margin-left: 30px;
     }
+.list2 ul li a
+{
+  font-size: 11px;
+
+}
     .row-2 img
     {
         width: 100%;
@@ -1477,16 +1494,16 @@ width: 100%;
         grid-template-columns: repeat(1,60%);
     }
     .whatgoingon .nov
-    /* {
-      margin-top: 20px;
+    {
+      display: none;
     }
-     */
+    
     .row-3
     {
 
         margin-top: 30px;
         display: grid;
-        grid-template-columns: repeat(1,90%);
+        grid-template-columns: repeat(1,70%);
         justify-content: flex-start;
         gap: 40px;
         margin-left: 30px;
@@ -1524,11 +1541,33 @@ width: 100%;
     display: none;
   }
   .like button{
-    font-size: 10px;
-   height: 30px;
+    font-size: 6px;
+   height: 60px;
+   width: 100px;
   }
+
+ .work .num li{
+    font-size: 12px;
+ }
+ .work .sup li{
+    font-size:10px ;
+ }
+.work .row li {
+  padding-right: 0px;
+  width: 1;
+ }
+
+ .work .row
+{
+    width: 100%;
+    padding-right: 20px;
+}
+  
 .col-4
 {
     /* display: none; */
+}
+    .culturegrid .col{
+    overflow-y: hidden;
 }
 }
